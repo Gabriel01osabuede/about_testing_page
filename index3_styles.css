@@ -37,6 +37,7 @@ header *{
     margin-left: -1em;
     width: 150px;
 }
+
 header ul{
     float: right;
     margin: 0;
@@ -87,6 +88,7 @@ header ul li a:hover{
 header .menu-toggle{
     display: none;
 }
+
 .active{
     font-weight: bold;
     color: black;
