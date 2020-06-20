@@ -30,8 +30,7 @@ header *{
 .logo{
     float: left;
     height: inherit;
-    margin-left: 3.2em;
-    margin-top: 15px;
+    margin-top: 7px;
 }
 .logo2{
     margin-left: -1em;
@@ -45,7 +44,7 @@ header ul{
 }
 header ul li{
     float: left;
-    position: relative;    
+    position: relative;
     margin-top: 18px;
 }
 header ul li ul{
@@ -72,12 +71,12 @@ header ul li ul li a:hover{
 }
 header ul li a{
     display: block;
-    padding: 20px;
-    font-size: 1.2em;
+    padding: 5px;
+    font-size: 14px;
     text-decoration: none;
     margin-right: 25px;
     color: black;
-    
+
 }
 header ul li a:hover{
     text-decoration: none;
@@ -107,7 +106,7 @@ header .menu-toggle{
     font-size: 1em;
     font-weight: 900;
     font-family: 'Lato', sans-serif;
-    
+
 }
 
 .banner{
@@ -121,7 +120,7 @@ header .menu-toggle{
 }
 .banner h1{
     text-align: center;
-    font-size: 2em; 
+    font-size: 2em;
     font-weight: bold;
     padding-top: 150px;
     padding-left: 20px;
@@ -148,7 +147,7 @@ header .menu-toggle{
 }
 
 .intro h2{
-    font-size: 1.5em; 
+    font-size: 1.5em;
     font-weight: bold;
     padding-top: 25px;
     padding-left: 15px;
@@ -159,7 +158,7 @@ header .menu-toggle{
 }
 
 .intro p{
-    font-size: 18px;
+    font-size: 16px;
     color: black;
     padding-right: 30px;
     padding-left: 13px;
