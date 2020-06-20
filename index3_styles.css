@@ -209,7 +209,6 @@ header .menu-toggle{
     top: 35px;
 }
 }
-
 .flex{
     display: flex;
     justify-content: space-around;
@@ -235,12 +234,12 @@ header .menu-toggle{
   font-size: 14px;
 }
 .second_section{
-  background-color: rgba(128, 202, 175, 0.08);
+  /* background-color: rgba(128, 202, 175, 0.08); */
   padding-top: 10px;
   padding-bottom: 50px;
 }
 .first_section{
-  background-color: rgba(128, 202, 175, 0.08);
+  /* background-color: rgba(128, 202, 175, 0.08); */
   padding-bottom: 50px;
   padding-top: 0px;
 }
