@@ -66,8 +66,9 @@ header ul li ul li a:hover{
 }
 header ul li a{
     display: block;
-    padding: 20px;
-    font-size: 1.2em;
+    padding-left: 80px;
+    /* font-size: 1.2em; */
+    font-size: 14px;
     text-decoration: none;
     margin-right: 25px;
     color: black;
@@ -105,7 +106,7 @@ header .menu-toggle{
 }
 
 .banner{
-    background: linear-gradient( rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.623) ), url(./img/Top\ Picture\ Header.png);
+    background: linear-gradient( rgba(0, 0, 0, 0.568), rgba(0, 0, 0, 0.623) ), url(./imageFolder/background.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +170,7 @@ header .menu-toggle {
 }
 }
 
-@media only screen and (max-width: 960px){ 
+@media only screen and (max-width: 960px){
 .logo{
     justify-content: flex-start;
     margin-top: 5px;
@@ -226,7 +227,7 @@ header .menu-toggle{
 #image_close_to_text{
     justify-content: flex-start;
     align-items: flex-start;
-    padding-right: 100px; 
+    padding-right: 100px;
 }
 #image_and_text_close{
    padding-left: 50px;
@@ -240,21 +241,23 @@ header .menu-toggle{
   font-size: 14px;
 }
 .second_section{
-  /* background-color: rgba(128, 202, 175, 0.08); */
-  padding-top: 10px;
+  background-image: url(./img/slide3.png);
+  background-repeat: no-repeat;
+  padding-top: 150px;
+  margin-top: -180px;
+  width: 100%;
   padding-bottom: 50px;
 }
 .first_section{
-  /* background-color: rgba(128, 202, 175, 0.08); */
-  background-color: rgba(128, 202, 175, 0.08);
-  padding-bottom: 50px;
+  background-image: url(./img/slide1.png);
+  background-repeat: no-repeat;
+  width: 100%;
+   padding-bottom: 50px;
+   padding-top: 0px;
+  /* padding-bottom: 50px; */
 }
-.first_section{
- width: 100%;
- background-color: rgba(128, 202, 175, 0.08);
-  padding-bottom: 50px;
-  padding-top: 0px;
-} 
+
+
 
 #mission{
   color:  #00945E;
@@ -307,11 +310,11 @@ footer a:hover, .footer-btm a:hover{
 @media only screen and (max-width: 960px){
 
     .flex{
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .first_section{
-        width: fit-content;
+        /* width: fit-content; */
         padding-bottom: 20px;
     }
 
@@ -328,7 +331,7 @@ footer a:hover, .footer-btm a:hover{
         padding-right: 10px;
     }
     #image_close_to_text{
-        padding: 0; 
+        padding: 0;
     }
     #image_and_text_close{
         justify-content: center;
@@ -361,7 +364,7 @@ footer a:hover, .footer-btm a:hover{
         padding:0;
     }
     #image_close_to_text{
-        padding: 0; 
+        padding: 0;
     }
     #image_and_text_close{
         display: flex;
@@ -374,7 +377,7 @@ footer a:hover, .footer-btm a:hover{
     display: flex;
 
      }
-     
+
     div.twitter{
         margin-top: 0px !important;
         padding: 10px;
