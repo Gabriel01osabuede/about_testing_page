@@ -30,16 +30,7 @@ header{
 header *{
     color: black;
 }
-.logo{
-    float: left;
-    height: inherit;
-    margin-left: 3.2em;
-    margin-top: 15px;
-}
-.logo2{
-    margin-left: -1em;
-    width: 150px;
-}
+
 header ul{
     float: right;
     margin: 0;
@@ -147,16 +138,14 @@ header .menu-toggle{
 
 .intro{
     text-align: center;
-    background-color: white;
 }
 
 .intro h2{
     font-size: 1.5em;
     font-weight: bold;
-    padding-top: 25px;
+    padding-top: 45px;
     padding-left: 15px;
     padding-right: 20px;
-    margin-top: 21px;
     color: #00945E;
     font-family: 'Lato', sans-serif;
 }
@@ -168,6 +157,14 @@ header .menu-toggle{
     padding-left: 13px;
     padding-bottom: 50px;
     font-family: 'Lato', sans-serif;
+}
+@media only screen and (max-width: 960px){
+header .menu-toggle {
+    display: block !important;
+    position: absolute !important;
+    right: 20px !important;
+    top: 35px !important;
+}
 }
 
 @media only screen and (max-width: 960px){ 
@@ -220,7 +217,7 @@ header .menu-toggle{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 50px;
+    padding-top: 40px;
     margin-right: 100px;
     margin-left: 100px;
 }
@@ -240,25 +237,30 @@ header .menu-toggle{
   padding: 50px;
   font-size: 14px;
 }
+.main_bg{
+  background:url(./img/mainbg.png);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
 .second_section{
-<<<<<<< HEAD
   /* background-color: rgba(128, 202, 175, 0.08); */
   padding-top: 10px;
   padding-bottom: 50px;
-}
-.first_section{
-  /* background-color: rgba(128, 202, 175, 0.08); */
-=======
-  background-color: rgba(128, 202, 175, 0.08);
-  padding-bottom: 50px;
+  width: 100%;
+  /* background:url(./img/Rectangle\ 349.png); */
+  background-size:cover;
+   background-repeat: no-repeat;
+   background-position-y: -250px;
 }
 .first_section{
  width: 100%;
- background-color: rgba(128, 202, 175, 0.08);
->>>>>>> 550c40c12ee691da4cb71314646554292926fe91
+ /* background:url(./img/Rectangle\ 348.png); */
+ background-size:cover;
   padding-bottom: 50px;
   padding-top: 0px;
-}
+  background-repeat: no-repeat;
+  background-position-y: -320px;
+} 
 
 #mission{
   color:  #00945E;
@@ -348,7 +350,9 @@ footer a:hover, .footer-btm a:hover{
         margin: 0;
         flex-direction: column;
     }
-
+    #mission, #vision{
+        text-align:center;
+    }
     .first_section{
         padding-bottom: 20px;
     }
@@ -372,6 +376,8 @@ footer a:hover, .footer-btm a:hover{
      }
      .flex img{
          width: 80%;
+         margin: auto;
+    display: flex;
 
      }
      
@@ -393,3 +399,4 @@ footer a:hover, .footer-btm a:hover{
         text-align-last: center;
     }
 }
+

@@ -30,8 +30,7 @@ header *{
 .logo{
     float: left;
     height: inherit;
-    margin-left: 3.2em;
-    margin-top: 15px;
+    margin-top: 7px;
 }
 .logo2{
     margin-left: -1em;
@@ -72,8 +71,8 @@ header ul li ul li a:hover{
 }
 header ul li a{
     display: block;
-    padding: 20px;
-    font-size: 1.2em;
+    padding: 5px;
+    font-size: 14px;
     text-decoration: none;
     margin-right: 25px;
     color: black;
@@ -144,16 +143,12 @@ header .menu-toggle{
 
 .intro{
     text-align: center;
-    background-color: white;
+    padding: 100px 10px;
 }
 
 .intro h2{
     font-size: 1.5em; 
     font-weight: bold;
-    padding-top: 25px;
-    padding-left: 15px;
-    padding-right: 20px;
-    margin-top: 21px;
     color: #00945E;
     font-family: 'Lato', sans-serif;
 }
@@ -168,6 +163,10 @@ header .menu-toggle{
 }
 
 @media only screen and (max-width: 750px){
+    .intro {
+        text-align: center;
+        padding: 10px 10px;
+    }
 .logo{
     margin-top: 20px;
     margin-left: 10px;
